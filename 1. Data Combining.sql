@@ -17,3 +17,8 @@ CREATE TABLE IF NOT EXISTS `industrial-silo-450608.2024_tripdata.combined_data` 
  
 SELECT COUNT(*) AS total_rows
 FROM `industrial-silo-450608.2024_tripdata.combined_data`
+
+-- checking for duplicate rows which are 144873
+
+SELECT COUNT(ride_id) - COUNT (DISTINCT ride_id) AS duplicate_rows
+FROM `industrial-silo-450608.2024_tripdata.combined_data`
