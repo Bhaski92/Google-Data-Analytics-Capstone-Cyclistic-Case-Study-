@@ -1,1 +1,48 @@
-# Google-Data-Analytics-Capstone-Cyclistic-Case-Study-
+Google Data Analytics Capstone: Cyclistic Case Study
+Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
+## Introduction
+The rise of urban mobility solutions has placed bike-share programs at the forefront of sustainable transportation. This case study explores the strategic challenges and opportunities faced by a bike-share company seeking to optimize its customer base. We delve into the analysis of Cyclistic, a Chicago-based bike-share service committed to providing diverse and accessible transportation options.  While Cyclistic enjoys a robust presence in the city, maximizing profitability hinges on converting casual riders into loyal annual members.  This report details an analysis of Cyclistic's trip data for the first quarter of 2024, aiming to uncover key usage patterns and inform targeted marketing strategies.  It will outline the data sources, cleaning process, analysis, visualizations, and recommendations derived from this analysis.
+### Quick links:
+Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 03/28/25]  
+
+SQL Queries:  
+[01. Data Combining]()  
+[02. Data Exploration]()  
+[03. Data Cleaning]()  
+[04. Data Analysis]()
+
+Data Visualizations: [Tableau]()
+## Background
+### Cyclistic
+Cyclistic launched its successful bike-share program in 2016 and has since grown to encompass a substantial fleet of bicycles and a widespread network of stations across Chicago.  Cyclistic distinguishes itself by offering a range of bike options, including reclining bikes, hand tricycles, and cargo bikes, catering to a diverse range of riders.  While a significant portion of Cyclistic users ride for leisure, a notable percentage utilize the bikes for daily commuting.    
+
+Currently, Cyclistic employs a flexible pricing strategy, offering single-ride passes, full-day passes, and annual memberships.  Riders using single-ride or full-day passes are classified as casual riders, while those with annual memberships are considered members.  The company's marketing team is keen to leverage data analysis to optimize its strategies, with a particular focus on converting casual riders into annual members, who are deemed more profitable.  This initiative is driven by the understanding that casual riders are already familiar with the Cyclistic service and have demonstrated a need for its mobility solutions.
+
+## Ask
+### Business Task
+To inform effective marketing strategies, a deeper understanding of Cyclistic's user base is crucial. This analysis seeks to answer the following key question:
+
+How do annual members and casual riders use Cyclistic bikes differently?    
+Answering this question will enable the marketing team to develop targeted campaigns and initiatives aimed at converting casual riders into annual members.
+
+## Prepare
+### Data Source
+This analysis utilizes Cyclistic's historical trip data to identify trends and patterns in rider behavior.  The data has been made available by Motivate International Inc. and provides valuable insights into how different customer types use Cyclistic bikes.  It's important to note that data-privacy considerations restrict the use of riders' personally identifiable information.  Therefore, the analysis focuses on aggregate usage patterns and does not include individual rider data.   
+
+The data for this analysis is limited to the first quarter of 2024 (January - March 2024). This timeframe was chosen as I was limited by Google's BigQuery storage space. Further analysis with a more comprehensive dataset would be needed to draw definitive conclusions about annual trends.
+
+The data is organized in a tabular format, with each row representing a single bike trip and columns containing attributes such as trip duration, start and end times, user type (member or casual rider), and bike type.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
