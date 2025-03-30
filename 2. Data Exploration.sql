@@ -63,7 +63,7 @@ WHERE start_station_name IS NULL OR start_station_id IS NULL;
 
 Total of 42583 rows have both start_station_name and start_station_id missing which needs to be removed.
 
-
+ 
 -- 1129 rows with unique end station name
 
 SELECT DISTINCT end_station_name
@@ -86,3 +86,5 @@ Total of 45900 rows have both end_station_name and end_station_id missing wh
 SELECT COUNT(ride_id) AS rows_with_null_end_loc
 FROM `industrial-silo-450608.2024_tripdata.combined_data_distinct`
 WHERE end_lat IS NULL OR end_lng IS NULL;
+
+Total of 606 rows have both end_lat and end_lng missing which needs to be removed.
