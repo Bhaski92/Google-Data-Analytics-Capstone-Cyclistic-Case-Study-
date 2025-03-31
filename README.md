@@ -111,7 +111,7 @@ Members show peak usage during typical commute hours (around 8 AM and 5 PM).
 Casual riders have a more gradual increase in usage, peaking in the afternoon.
 Explanation: The "Total trips per hour" line chart displays the number of rides by rider type across the hours of the day.
 
-Conclusion:
+## Conclusion:
 Based on the first quarter data, the following key differences in Cyclistic usage patterns between annual members and casual riders are observed:
 
 1. Usage Frequency: Annual members are the primary users of Cyclistic bikes.
