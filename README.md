@@ -55,7 +55,7 @@ Observations:
 
 3. There are 144873 duplicate rows that need to be removed.
 
-   <img width="192" alt="Total duplicate rows" src="https://github.com/user-attachments/assets/82b7fa0a-8014-49b1-a900-c2d86ab8b1e2" />
+<img width="192" alt="Total duplicate rows" src="https://github.com/user-attachments/assets/82b7fa0a-8014-49b1-a900-c2d86ab8b1e2" />
 
 5. All ride_id values have length of 16 so no need to clean it.
 
